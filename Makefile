@@ -1,4 +1,4 @@
-URL := "anantshri.github.io/manual_verification"
+URL := "anantshri.github.io/${TRAVIS_REPO_SLUG}"
 
 .PHONY: all
 all: build
