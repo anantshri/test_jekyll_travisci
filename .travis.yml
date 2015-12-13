@@ -29,7 +29,7 @@ before_script:
   - ssh-add .key
   - git config --global user.name "Travis-CI"
   - git config --global user.email "noreply@travis-ci.org"
-  - git config remote.origin.url git@github.com:anantshri/manual_verification
+  - git config remote.origin.url git@github.com:${TRAVIS_REPO_SLUG}
   - COMMIT_MESSAGE="Test Commit `date "+%Y-%m-%d %H:%M:%S"` from `git log -n 1 --format='commit %h - %s'`"
 
 
@@ -47,5 +47,5 @@ after_success: >
     git init ;
     git add . ;
     git commit -m "Deploy Travis CI build $TRAVIS_BUILD_NUMBER to GitHub pages" ;
-    git push -v -f git@github.com:anantshri/${TRAVIS_REPO_SLUG} master:gh-pages
+    git push -v -f git@github.com:${TRAVIS_REPO_SLUG} master:gh-pages
   fi
