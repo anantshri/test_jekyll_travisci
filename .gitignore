@@ -15,6 +15,10 @@ _site
 *.vi
 *~
 
+# Keys
+.key
+.key.pub
+
 # OS or Editor folders
 .DS_Store
 ._*
