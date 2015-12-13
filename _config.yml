@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Build settings
+markdown: kramdown
+
+#Exclude these files
+exclude:
+  - README.md
+  - Makefile
+  - Gemfile*
+  - vendor/
+  - info.sublime-*
+
+#paginate:   5
+
+markdown:       redcarpet
+highlighter:    rouge
+
+#permalink:              pretty
+#relative_permalinks:    true
+
+# Routes
+
+url:        http://anantshri.github.io/test_jekyll_travisci
+baseurl:    /
+downloads:  /downloads
+assets:     /assets
+
+# Content
+
+title:          Manual Verification
+tagline:        "Lets ensure its valid"
+description:    "Manually verify those isuses"
+
+author:
+  name:         "Anant Shrivastava"
+  twitter:      https://twitter.com/anantshri
+  linkedin:     https://www.linkedin.com/in/anantshri

@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'github-pages'
+gem 'html-proofer'
+gem 'rouge', '1.9'
+gem 'jekyll-paginate'
+gem 'redcarpet'
