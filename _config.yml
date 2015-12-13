@@ -19,7 +19,7 @@ exclude:
 #paginate:   5
 
 markdown:       redcarpet
-highlighter:    rouge
+#highlighter:    rouge
 
 #permalink:              pretty
 #relative_permalinks:    true
